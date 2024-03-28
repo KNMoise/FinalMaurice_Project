@@ -340,7 +340,7 @@
                     <li> <i class="fa fa-globe"></i> www.innovatedtc.com</li>
                     <li><i class="fa fa-map-marker"></i><span>KK 31 Ave, Kigali</span> Kazza
                       Building, Gikondo, Kigali.</li>
-                    <li><i class="far fa-envelope"></i>sales@innovate.com</li>
+                    <li><i class="far fa-envelope"></i>sales@innovatedtc.com</li>
                     <li><i class="fas fa-phone"></i>+250 785 383 593<br>+250 785 383 593</li>
                   </ul>
                   <ul class="social-icon-four">

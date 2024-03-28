@@ -47,7 +47,7 @@
             WHY CHOOSE US
           </h2>
           <p class="fables-main-text-color font-14 my-3">
-          Cultivating Success Together <br><br>
+          <h3>Cultivating Success Together.</h3><br>
           Join Forces with InnovateWithUs for Expert Consultancy, Digital Transformation, and Document Management Solutions.
           </p>
           <div id="accordion">

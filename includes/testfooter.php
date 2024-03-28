@@ -171,11 +171,34 @@
         /* Add smooth transition effect */
     }
 
-    .footer-distributed .footer-icons a:hover {
-        background-color: #0056b3;
-        /* Darker blue color on hover */
+    .footer-newsletter {
+        margin-top: 20px;
     }
 
+    .footer-newsletter p {
+        margin-bottom: 10px;
+    }
+
+    .footer-newsletter input[type="email"] {
+        width: 200px;
+        padding: 8px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .footer-newsletter button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .footer-newsletter button:hover {
+        background-color: #0056b3;
+    }
 
     /* If you don't want the footer to be responsive, remove these media queries */
 
@@ -212,7 +235,7 @@
 <footer class="footer-distributed" style="background-image: url('img/map.png')">
 
     <div class="footer-left">
-        
+
         <!-- <h3>Company<span>logo</span></h3> -->
         <img src="img/logo.png" alt="Company Logo" class="company-logo">
         <p class="footer-links">
@@ -242,20 +265,26 @@
             <i class="fa fa-envelope"></i>
             <p><a href="mailto:sales@innovatewithus.com">sales@innovatewithus.com</a></p>
         </div>
+        <div class="footer-newsletter">
+            <p style="font-size: 14px; color: #fff;">Subscribe to our newsletter:</p>
+            <form action="mail.php" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+
     </div>
     <div class="footer-right">
         <p class="footer-company-about" style="color: #fff;">
             <span>About InnovateWithUs</span>
-            We specialize in consultancy, digital transformation, and document management solutions. With a focus on innovation and client satisfaction, we empower businesses to thrive in today's dynamic market. 
+            We specialize in consultancy, digital transformation, and document management solutions. With a focus on innovation and client satisfaction, we empower businesses to thrive in today's dynamic market.
         </p>
         <div class="footer-icons">
             <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
             <a href="#"><i class="fa fa-linkedin"></i></a>
             <a href="#"><i class="fa fa-github"></i></a>
         </div>
-        <!-- Newsletter Section -->
-
     </div>
 
 </footer>

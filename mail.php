@@ -5,6 +5,7 @@ $email = $_POST["email"];
 $subject = $_POST["subject"];
 $organization = $_POST["organization"];
 $company = $_POST["company"];
+$phone = $_POST["phone"];
 $message = $_POST["message"];
 
 require "vendor/autoload.php";
