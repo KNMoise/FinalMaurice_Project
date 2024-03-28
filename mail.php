@@ -44,4 +44,4 @@ $mail->Body = $message;
 
 $mail->send();
 
-header("Location: sent.php");
+header("Location: sent.html");
