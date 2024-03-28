@@ -14,6 +14,9 @@
             <a href="service.php" class="nav-item nav-link <?php if (strpos($current_url, "service")) {echo "active";}?>">Service</a>
             <a href="contact.php" class="nav-item nav-link <?php if (strpos($current_url, "contact")) {echo "active";}?>">Contact</a>
         </div>
-        <a href="getstarted.php" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Get Started</a>
+        <a href="getstarted.php" class="btn rounded-pill py-2 px-4 ms-3 d-none d-lg-block" style="background-color: #f26722; color: white;">Get Started</a>
+
+
     </div>
 </nav>
+
