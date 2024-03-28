@@ -1,4 +1,4 @@
-<div class="container-xxl bg-primary fact py-3 wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-xxl bg-primary fact py-3 wow fadeInUp" data-wow-delay="0.1s" style="background-color: #f26722; color: white;">
   <div class="container ">
     <div class="row g-4">
       <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">

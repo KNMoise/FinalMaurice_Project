@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://sherpabrokerage.com/assets/css/owl.carousel.min.css" />
 
+    <link href="assets/custom/css/custom.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -66,7 +67,7 @@
             </div>
             <!-- choose us Start -->
             <!-- changes in colors is coming from choose bootstrap which is corrupting the main boostrap -->
-            <?php require '<includes/choose.php'; ?>
+            <?php  require '<includes/choose.php'; ?>
 
             <!-- choose us End -->
 
@@ -103,6 +104,10 @@
     <script src="https://sherpabrokerage.com/assets/js/custom.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/vendor/WOW-master/dist/wow.min.js"></script>
 
 </body>
 
