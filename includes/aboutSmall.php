@@ -60,9 +60,9 @@
                 ></div>
               </div>
             </div>
-            <a
+            <a style="background-color: #f26722; color:black"
               href="about.html"
-              class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
+              class="btn py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft"
               >Read More</a
             >
           </div>
