@@ -54,29 +54,29 @@
                                     <div class="col-lg-7">
                                         <div class="wow fadeInUp" data-wow-delay="0.3s">
                                             <p class="text-center mb-4" style="color: white;">Reach out to Innovate<span style="color: #f26722;">with</span>Us where your questions find our answers—connecting you to solutions.</p><br>
-                                            <form action="https://api.headlessforms.cloud/api/v1/form/8NtdWCGRt0" method="POST">
+                                            <form action="email.php" method="POST">
                                                 <div class="row g-3">
                                                     <div class="col-md-6">
                                                         <div class="form-floating">
-                                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
                                                             <label for="name">Your Name</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-floating">
-                                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                                            <input type="email" class="form-control"  name="email" id="email" placeholder="Your Email">
                                                             <label for="email">Your Email</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating">
-                                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
                                                             <label for="subject">Subject</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-12">
                                                         <div class="form-floating">
-                                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                                            <textarea name="message" class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                                             <label for="message">Message</label>
                                                         </div>
                                                     </div>
