@@ -240,9 +240,9 @@
         <img src="img/logo.png" alt="Company Logo" class="company-logo">
         <p class="footer-links">
             <a href="#" class="link-1">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="about.php">About</a>
+            <a href="service.php">Services</a>
+            <a href="contact.php">Contact</a>
         </p>
         <p class="footer-company-name">Innovatewithus© 2024</p>
         <p class="footer-links">
@@ -266,8 +266,8 @@
             <p><a href="mailto:sales@innovatewithus.com">sales@innovatewithus.com</a></p>
         </div>
         <div class="footer-newsletter">
-            <p style="font-size: 14px; color: #fff;">Subscribe to our newsletter:</p>
-            <form action="mail.php" method="post">
+            <p style="font-size: 14px; color: #fff;">Subscribe to our newsletter</p>
+            <form action="" method="">
                 <input type="email" name="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
             </form>
@@ -279,11 +279,14 @@
             <span>About InnovateWithUs</span>
             We specialize in consultancy, digital transformation, and document management solutions. With a focus on innovation and client satisfaction, we empower businesses to thrive in today's dynamic market.
         </p>
-        <div class="footer-icons">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+        <div class="d-flex pt-2">
+          <a class="btn btn-outline-light btn-social" href=""
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <div style="margin: 10px;"></div>
+          <a class="btn btn-outline-light btn-social" href=""
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
         </div>
     </div>
 
