@@ -1,0 +1,629 @@
+/********** Template CSS **********/
+:root {
+    --primary: #004388;
+    --secondary: #f26722;
+    --light: #ffffff;
+    --dark: #04000B;
+}
+
+/* glassism text start */
+.testimonial-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  
+  .company-logo {
+    width: 100%;
+    height: auto;
+  }
+  
+  .glassmorphism-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    max-width: 80%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .glassmorphism-title {
+      font-size: 16px;
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .glassmorphism-title {
+      font-size: 14px;
+      padding: 15px;
+    }
+  }
+/* glassism text end */
+
+/* Add  existing styles here */
+#popupCard1,#popupCard2,#popupCard3 {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #004388;
+    padding: 100px;
+    border: 1px solid #f26722;
+    box-shadow: #f26722;
+    z-index: 1000;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 900px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.col-lg-4:hover #popupCard1 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.col-lg-4:hover #popupCard2 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.col-lg-4:hover #popupCard3 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+
+/* Style the navigation menu */
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f26722;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* hover on service start */
+
+/* hover on service ends */
+/*** Spinner ***/
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+/*** Heading ***/
+h1,
+h2,
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    margin-right: 25px;
+    padding: 35px 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#ccc;
+    outline: none;
+    transition: .5s;
+}
+
+.sticky-top.navbar-light .navbar-nav .nav-link {
+    padding: 20px 0;
+    color: var(--dark) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--secondary) !important;
+}
+
+.navbar-light .navbar-brand h1 {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-brand img {
+    max-height: 60px;
+    transition: .5s;
+}
+
+.sticky-top.navbar-light .navbar-brand img {
+    max-height: 45px;
+}
+
+@media (max-width: 991.98px) {
+    .sticky-top.navbar-light {
+        position: relative;
+        background: #FFFFFF;
+    }
+
+    .navbar-light .navbar-collapse {
+        margin-top: 15px;
+        border-top: 1px solid #DDDDDD;
+    }
+
+    .navbar-light .navbar-nav .nav-link,
+    .sticky-top.navbar-light .navbar-nav .nav-link {
+        padding: 10px 0;
+        margin-left: 0;
+        color: var(--dark) !important;
+    }
+
+    .navbar-light .navbar-brand h1 {
+        color: var(--primary);
+    }
+
+    .navbar-light .navbar-brand img {
+        max-height: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-light {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid rgba(256, 256, 256, .1);
+        z-index: 999;
+    }
+    
+    .sticky-top.navbar-light {
+        position: fixed;
+        background: #FFFFFF;
+    }
+
+    .sticky-top.navbar-light .navbar-brand h1 {
+        color: var(--primary);
+    }
+
+    .navbar-light .navbar-nav .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar-light .navbar-nav .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+
+    .navbar-light .btn {
+        color: var(--dark);
+        background: #FFFFFF;
+    }
+
+    .sticky-top.navbar-light .btn {
+        color: var(--dark);
+        background: var(--secondary);
+    }
+}
+
+
+/*** Hero Header ***/
+.hero-header {
+    margin-bottom: 6rem;
+    padding: 18rem 0;
+    background:
+        url(../img/blob-top-left.png),
+        url(../img/blob-top-right.png),
+        url(../img/blob-bottom-left.png),
+        url(../img/blob-bottom-right.png),
+        url(../img/blob-center.png);
+        /* url(../img/bg-bottom.png); */
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center,
+        center bottom;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991.98px) {
+    .hero-header {
+        padding: 6rem 0 9rem 0;
+    }
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-title span:first-child,
+.section-title span:last-child {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    width: 30px;
+    height: 2px;
+}
+
+.section-title span:last-child {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.section-title span:first-child::after,
+.section-title span:last-child::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 2px;
+    top: 0;
+    right: -20px;
+}
+.text-com {
+    color: #f26722 !important;
+}
+
+.section-title span:last-child::after {
+    right: auto;
+    left: -20px;
+}
+
+.section-title.text-primary span:first-child,
+.section-title.text-primary span:last-child,
+.section-title.text-primary span:first-child::after,
+.section-title.text-primary span:last-child::after {
+    background: var(--primary);
+}
+
+.section-title.text-secondary span:first-child,
+.section-title.text-secondary span:last-child,
+.section-title.text-secondary span:first-child::after,
+.section-title.text-secondary span:last-child::after {
+    background: var(--secondary);
+}
+
+.section-title.text-white span:first-child,
+.section-title.text-white span:last-child,
+.section-title.text-white span:first-child::after,
+.section-title.text-white span:last-child::after {
+    background: #FFFFFF;
+}
+
+
+/*** Feature ***/
+.feature-item {
+    transition: .5s;
+}
+
+.feature-item:hover {
+    margin-top: -15px;
+}
+
+
+/*** About ***/
+.progress {
+    height: 5px;
+}
+
+.progress .progress-bar {
+    width: 0px;
+    transition: 3s;
+}
+
+
+/*** Fact ***/
+.fact {
+    /* margin: 6rem 0; */
+    background:
+        url(../img/blob-top-left.png),
+        url(../img/blob-top-right.png),
+        url(../img/blob-bottom-left.png),
+        url(../img/blob-bottom-right.png),
+        url(../img/blob-center.png);
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center;
+    background-repeat: no-repeat;
+}
+
+
+
+/*** Service ***/
+.service-item {
+    position: relative;
+    padding: 45px 30px;
+    background: var(--light);
+    overflow: hidden;
+    transition: .5s;
+}
+
+.service-item:hover {
+    margin-top: -15px;
+    padding-bottom: 60px;
+    background: var(--primary);
+}
+
+.service-item .service-icon {
+    margin: 0 auto 20px auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    background: url(../img/blob-primary.png) center center no-repeat;
+    background-size: contain;
+    transition: .5s;
+}
+
+.service-item:hover .service-icon {
+    color: var(--dark);
+    background: url(../img/blob-secondary.png) center center no-repeat;
+    background-size: contain;
+}
+
+.service-item h5,
+.service-item p {
+    transition: .5s;
+}
+
+.service-item:hover h5,
+.service-item:hover p {
+    color: #FFFFFF;
+}
+
+.service-item a.btn {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 40px 40px 0 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+.service-item a.btn:hover {
+    color: var(--dark);
+    background: var(--secondary);
+}
+
+.service-item:hover a.btn {
+    bottom: 0;
+}
+
+
+/*** Project Portfolio ***/
+
+/*** Newsletter ***/
+.newsletter {
+    margin: 6rem 0;
+    background:
+        url(../img/blob-top-left.png),
+        url(../img/blob-top-right.png),
+        url(../img/blob-bottom-left.png),
+        url(../img/blob-bottom-right.png),
+        url(../img/blob-center.png);
+    background-position:
+        left 0px top 0px,
+        right 0px top 0px,
+        left 0px bottom 0px,
+        right 0px bottom 0px,
+        center center;
+    background-repeat: no-repeat;
+}
+
+/*** Footer ***/
+.footer {
+    /* margin-top: 3rem; Adds top margin of 6 rem units */
+    /* padding-top: 6rem; Adds top padding of 9 rem units */
+    background:
+        url(../img/map.png); /* Sets the background image to 'map.png' located in the 'img' directory one level above */
+    background-position:
+        center top, /* Centers the background image vertically at the top */
+        center center; /* Centers the background image both horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px; /* Adds a right margin of 5 pixels */
+    width: 20px; /* Sets the width of the button to 20 pixels */
+    height: 20px; /* Sets the height of the button to 20 pixels */
+    display: flex; /* Displays the button as a flex container */
+    align-items: center; /* Aligns items vertically at the center */
+    justify-content: center; /* Aligns items horizontally at the center */
+    color: var(--light); /* Sets the text color using a CSS variable */
+    border: 1px solid rgba(256, 256, 256, .1); /* Sets a border with a color and opacity */
+    border-radius: 40px; /* Sets the border radius to create a rounded shape */
+    transition: .3s; /* Adds a transition effect with a duration of 0.3 seconds */
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary); /* Changes the text color on hover to a primary color */
+}
+
+/* The following styles are similar to the above styles but apply to different elements */
+
+.footer .btn.btn-link {
+    display: block; /* Displays the button as a block-level element */
+    margin-bottom: 10px; /* Adds bottom margin of 10 pixels */
+    padding: 0; /* Removes padding */
+    text-align: left; /* Aligns the text to the left */
+    color: var(--light); /* Sets the text color using a CSS variable */
+    font-weight: normal; /* Sets the font weight to normal */
+    transition: .3s; /* Adds a transition effect with a duration of 0.3 seconds */
+}
+
+.footer .btn.btn-link::before {
+    position: relative; /* Sets the position to relative */
+    content: "\f105"; /* Inserts content using Unicode for Font Awesome icon */
+    font-family: "Font Awesome 5 Free"; /* Sets the font family for the icon */
+    font-weight: 900; /* Sets the font weight to 900 (bold) */
+    margin-right: 10px; /* Adds right margin of 10 pixels */
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px; /* Increases letter spacing on hover */
+    box-shadow: none; /* Removes box shadow */
+    color: var(--secondary); /* Changes the text color on hover to a secondary color */
+}
+
+.footer .copyright {
+    padding: 25px 0; /* Adds padding of 25 pixels on top and bottom */
+    font-size: 14px; /* Sets the font size to 14 pixels */
+    border-top: 1px solid rgba(256, 256, 256, .1); /* Sets a top border with a color and opacity */
+}
+
+.footer .copyright a {
+    color: var(--light); /* Sets the text color using a CSS variable */
+}
+
+.footer .footer-menu a {
+    margin-right: 15px; /* Adds right margin of 15 pixels */
+    padding-right: 15px; /* Adds right padding of 15 pixels */
+    border-right: 1px solid rgba(255, 255, 255, .1); /* Sets a right border with a color and opacity */
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0; /* Removes the right margin for the last child element */
+    padding-right: 0; /* Removes the right padding for the last child element */
+    border-right: none; /* Removes the right border for the last child element */
+}
+
+.footer .copyright a:hover,
+.footer .footer-menu a:hover {
+    color: var(--secondary); /* Changes the text color on hover to a secondary color */
+}

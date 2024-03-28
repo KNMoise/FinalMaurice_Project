@@ -1,0 +1,3801 @@
+
+/*
+@File: Sherpa Brokerage Template Styles
+
+* This file contains the styling for the actual template, this
+is the file you need to edit to change the look of the
+template.
+
+This files table contents are outlined below>>>>>
+
+******************************************* 
+** - DEFAULT AREA STYLE - **
+
+** - Default Btn Area Style
+** - Read More Area Style
+
+** - HOME PAGE STYLE - **
+
+** - Header Area Style
+** - Nav Area
+** - Sidebar Modal Area Style
+** - Banner Area Style
+** - Choose Us Area Style
+** - About Area Style
+** - Our Vision Area Style
+** - Services Area Style
+** - Quat Area Style
+** - Counter Area Style
+** - Achievement Area Style
+** - Agent Now Area Style
+** - Testimonial Area Style
+** - Business Contact Area Style
+** - Blog Area Style
+** - Footer Top Area Style
+** - Footer Bottom Area Style
+
+** - INNER PAGE STYLE AREA - **
+
+** - Page Title Area Style
+** - Sign In & Log In  Area Style
+** - Coming Soon Area Style
+** - 404 Error Area Style
+** - Service Details Area Style
+** - Blog Details Area Style
+** - Contact Area Style
+** - FAQ Area Style
+** - Client Area Style
+** - Gallery Area Style
+
+** - OTHER STYLE AREA - **
+
+** - Preloader Area Style
+** - Go Top Style
+** - Video wave Style
+** - Section Title Area Style
+** - Nice select Area
+
+** - Addition Custom
+** - Logo Slider Area Style
+
+
+*******************************************
+/*
+
+
+/*
+Default Style
+============================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+  color: #000000;
+}
+
+.body-five .h1, .body-five .h2, .body-five .h3, .body-five .h4, .body-five .h5, .body-five .h6, .body-five h1, .body-five h2, .body-five h3, .body-five h4, .body-five h5, .body-five h6 {
+  color: #000000;
+}
+
+a {
+  display: inline-block;
+  transition: all 0.35s;
+  text-decoration: none;
+  color: #FFD700;
+}
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+a:focus {
+  text-decoration: none;
+}
+
+button {
+  outline: 0 !important;
+  box-shadow: none;
+  border: none;
+}
+button:focus {
+  box-shadow: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  font-weight: 800;
+}
+
+.h1, h1 {
+  font-size: 54px;
+}
+
+.h2, h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.d-table {
+  width: 100%;
+  height: 100%;
+}
+
+.d-table-cell {
+  vertical-align: middle;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+.privacy-bold {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-control {
+  height: 50px;
+  color: #000000;
+  border: 1px solid #8094ff;
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 10px 20px;
+  width: 100%;
+}
+.form-control::-moz-placeholder {
+  color: #3f3f3f;
+}
+.form-control::placeholder {
+  color: #3f3f3f;
+}
+.form-control:focus {
+  color: #000000;
+  background-color: transparent;
+  box-shadow: unset;
+  outline: 0;
+  border: 1px solid #8094ff;
+}
+
+.form-control:hover:focus, .form-control:focus {
+  box-shadow: unset;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.pt-300 {
+  padding-top: 300px;
+}
+
+.pb-300 {
+  padding-bottom: 300px;
+}
+
+.ptb-300 {
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+}
+
+.ptb-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.ptb-150 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+
+.pb-150 {
+  padding-bottom: 150px;
+}
+
+.ptb-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.ptb-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.ptb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mtb-30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mtb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*
+Default Btn Area Style*/
+.default-btn {
+  font-size: 14px;
+  color: #ffffff;
+  padding: 15px 30px;
+  line-height: 1;
+  transition: all 0.35s;
+  text-transform: capitalize;
+  position: relative;
+  cursor: pointer;
+  border-radius: 2px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #000000;
+}
+.default-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 50%;
+  background-color: #666666;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.default-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  height: 50%;
+  background-color: #666666;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.default-btn.active {
+  margin-left: 30px;
+  color: #ffffff;
+  background-color: #000000;
+}
+.default-btn.btn-five {
+  background-color: #000000;
+}
+.default-btn.btn-five::before {
+  background-color: #000000;
+}
+.default-btn.btn-five::after {
+  background-color: #000000;
+}
+.default-btn.btn-six {
+  background-color: #000000;
+}
+.default-btn.btn-six::before {
+  background-color: #000000;
+}
+.default-btn.btn-six::after {
+  background-color: #000000;
+}
+.default-btn:hover {
+  color: #ffffff;
+}
+.default-btn:hover::before {
+  left: 0;
+}
+.default-btn:hover::after {
+  right: 0;
+}
+
+/*
+Read More Area Style*/
+.read-more {
+  line-height: 1;
+  color: #FFD700;
+  font-weight: 500;
+  transition: all 0.35s;
+  display: block;
+  font-size: 13px;
+}
+.read-more:hover {
+  color: #FFD700;
+}
+.read-more:hover i {
+  color: #FFD700;
+  animation: rotation 0.5s linear infinite;
+}
+
+/*===== DEFAULT STYLE END ======*/
+/*====================================================
+HOME PAGE ONE STYLE
+======================================================*/
+/*
+Header Area Style
+======================================================*/
+.header-area .top-header-area {
+  padding: 15px 0;
+  background-color: #f2f2f2;
+}
+.header-area .top-header-area .header-content-left p {
+  color: #000000;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.header-area .top-header-area .header-content-right {
+  float: right;
+}
+.header-area .top-header-area .header-content-right li {
+  display: inline-block;
+  padding-right: 20px;
+  color: #000000;
+}
+.header-area .top-header-area .header-content-right li:last-child {
+  padding-right: 0;
+}
+.header-area .top-header-area .header-content-right li a {
+  color: #000000;
+  display: inline-block;
+}
+.header-area .top-header-area .header-content-right li a i {
+  color: #ffffff;
+  margin-right: 5px;
+  font-size: 15px;
+  background-color: #000000;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  top: 1px;
+}
+.header-area .top-header-area .header-content-right li a:hover {
+  color: #111111;
+}
+
+
+/*
+Banner Area Style
+======================================================*/
+.main-banner-area {
+  position: relative;
+  background-color: #CDD4FF;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.main-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.main-banner-area .banner-text {
+  position: relative;
+}
+.main-banner-area .banner-text span {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.main-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.main-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.main-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.main-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.main-banner-area {
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/2422290/pexels-photo-2422290.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Auto Insurance Birds Eye View Banner Area Style
+======================================================*/
+.auto-banner-area {
+  position: relative;
+  background-color: #CDD4FF;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.auto-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.auto-banner-area .banner-text {
+  position: relative;
+}
+.auto-banner-area .banner-text span {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.auto-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+.auto-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #000000;
+}
+.auto-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.auto-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.auto-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/auto-insurance-background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Auto Insurance Banner Area Style
+======================================================*/
+.auto-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.auto-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.auto-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.auto-insurance-banner-area .banner-text {
+  position: relative;
+}
+.auto-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.auto-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.auto-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.auto-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.auto-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.auto-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/tlc-nyc-insurance.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Homeowners Insurance Banner Area Style
+======================================================*/
+.homeowners-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.homeowners-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.homeowners-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.homeowners-insurance-banner-area .banner-text {
+  position: relative;
+}
+.homeowners-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.homeowners-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.homeowners-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.homeowners-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.homeowners-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.homeowners-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/homeowners-insurance-1.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Auto Insurance Banner Area Style
+======================================================*/
+.auto-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.auto-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.auto-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.auto-insurance-banner-area .banner-text {
+  position: relative;
+}
+.auto-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.auto-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.auto-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.auto-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.auto-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.auto-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/tlc-nyc-insurance.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Renters Insurance Banner Area Style
+======================================================*/
+.renters-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.renters-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.renters-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.renters-insurance-banner-area .banner-text {
+  position: relative;
+}
+.renters-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.renters-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.renters-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.renters-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.renters-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.renters-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/renters-insurance.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Health Insurance Banner Area Style
+======================================================*/
+.health-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.health-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.health-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.health-insurance-banner-area .banner-text {
+  position: relative;
+}
+.health-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.health-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.health-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.health-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.health-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.health-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/health-insurance-coverage.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Health Insurance Banner Area Style
+======================================================*/
+.health-insurance-banner-area-1 {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.health-insurance-banner-area-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.health-insurance-banner-area-1 .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.health-insurance-banner-area-1 .banner-text {
+  position: relative;
+}
+.health-insurance-banner-area-1 .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.health-insurance-banner-area-1 .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.health-insurance-banner-area-1 .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.health-insurance-banner-area-1 .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.health-insurance-banner-area-1 .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.health-insurance-banner-area-1 {
+  position: relative;
+  background-image: url(../../assets/img/prescription.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Travel Insurance Banner Area Style
+======================================================*/
+.travel-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.travel-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.travel-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.travel-insurance-banner-area .banner-text {
+  position: relative;
+}
+.travel-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.travel-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.travel-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.travel-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.travel-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.travel-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/hiking.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+General Liability Insurance Banner Area Style
+======================================================*/
+.general-liability-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.general-liability-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.general-liability-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.general-liability-insurance-banner-area .banner-text {
+  position: relative;
+}
+.general-liability-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.general-liability-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.general-liability-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.general-liability-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.general-liability-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.general-liability-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/small-business.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+General Liability Insurance Banner Area Style
+======================================================*/
+.business-owners-policy-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.business-owners-policy-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.business-owners-policy-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.business-owners-policy-banner-area .banner-text {
+  position: relative;
+}
+.business-owners-policy-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.business-owners-policy-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.business-owners-policy-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.business-owners-policy-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.business-owners-policy-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.business-owners-policy-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/coffee-shop-business.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Workers Compensatione Banner Area Style
+======================================================*/
+.workers-compensation-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.workers-compensation-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.workers-compensation-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.workers-compensation-banner-area .banner-text {
+  position: relative;
+}
+.workers-compensation-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.workers-compensation-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.workers-compensation-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.workers-compensation-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.workers-compensation-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.workers-compensation-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/construction-worker.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Workers Compensatione Banner Area Style
+======================================================*/
+.disability-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.disability-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.disability-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.disability-insurance-banner-area .banner-text {
+  position: relative;
+}
+.disability-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.disability-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.disability-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.disability-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.disability-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.disability-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/disability-care.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Bond Banner Area Style
+======================================================*/
+.bond-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.bond-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.bond-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.bond-insurance-banner-area .banner-text {
+  position: relative;
+}
+.bond-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.bond-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.bond-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.bond-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.bond-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.bond-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/stock-broker.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Special Events Banner Area Style
+======================================================*/
+.special-events-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.special-events-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.special-events-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.special-events-insurance-banner-area .banner-text {
+  position: relative;
+}
+.special-events-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.special-events-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.special-events-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.special-events-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.special-events-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.special-events-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/special-events.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Notary Banner Area Style
+======================================================*/
+.notary-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.notary-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.notary-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.notary-banner-area .banner-text {
+  position: relative;
+}
+.notary-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.notary-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.notary-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.notary-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.notary-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.notary-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/notary.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+TLC Insurance Banner Area Style
+======================================================*/
+.tlc-insurance-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.tlc-insurance-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.tlc-insurance-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.tlc-insurance-banner-area .banner-text {
+  position: relative;
+}
+.tlc-insurance-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.tlc-insurance-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.tlc-insurance-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.tlc-insurance-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.tlc-insurance-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.tlc-insurance-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/tlc.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Thank you Banner Area Style
+======================================================*/
+.thank-you-banner-area {
+  position: relative;
+  background-color: #ffffff;
+  padding-top: 225px;
+  padding-bottom: 125px;
+  z-index: 1;
+  overflow: hidden;
+}
+.thank-you-banner-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.thank-you-banner-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.thank-you-banner-area .banner-text {
+  position: relative;
+}
+.thank-you-banner-area .banner-text span {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.thank-you-banner-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.thank-you-banner-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.thank-you-banner-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.thank-you-banner-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.thank-you-banner-area {
+  position: relative;
+  background-image: url(../../assets/img/get-a-quote.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Choose Us Area Style
+======================================================*/
+.single-choose {
+  text-align: center;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  margin-bottom: 30px;
+  transition: all 0.35s;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #000000;
+}
+.single-choose::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.single-choose span {
+  font-size: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
+  line-height: 1;
+  color: #FFD700;
+}
+.single-choose h3 {
+  margin-bottom: 10px;
+  transition: all 0.35s;
+}
+.single-choose p {
+  transition: all 0.35s;
+}
+.single-choose a i {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #FFD700;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 2px;
+}
+.single-choose .choose-icon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 100px;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.35s;
+}
+.single-choose:hover {
+  transform: translateY(-5px);
+  background-color: #000000;
+}
+.single-choose:hover h3 {
+  color: #ffffff;
+}
+.single-choose:hover p {
+  color: #ffffff;
+}
+.single-choose:hover .choose-icon {
+  opacity: 0.3;
+}
+
+/*
+About Area Style
+======================================================*/
+.about-area {
+  background-color: #8094ff;
+  height: 100%;
+  overflow: hidden;
+}
+.about-area .about-content span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.about-area .about-content h1 {
+  color: #ffffff;
+  font-size: 54px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.about-area .about-content h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.about-area .about-content p {
+  color: #ffffff;
+}
+.about-area .about-content .about-list {
+  margin-top: 30px;
+}
+.about-area .about-content .about-list ul {
+  display: inline-block;
+}
+.about-area .about-content .about-list ul li {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.about-area .about-content .about-list ul li i {
+  font-size: 21px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+.about-area .about-content .about-list .about-single-list {
+  padding-left: 60px;
+  position: relative;
+}
+.about-area .about-content .about-list .about-single-list i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 50px;
+  color: #ffffff;
+  line-height: 1;
+}
+.about-area .about-content .about-list .about-single-list span {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.about-area .about-content .default-btn {
+  margin-top: 30px;
+}
+.about-area .about-img-3 {
+  position: relative;
+  float: right;
+}
+.about-area .about-img-3 img {
+  border-radius: 0 25% 0 0;
+}
+.about-area .about-img-3 .about-img-2 {
+  position: absolute;
+  top: 35px;
+  left: -90px;
+}
+
+/*
+Our Vision Area Style
+======================================================*/
+.our-vision-area {
+  position: relative;
+  background-color: #f4f4f4;
+}
+.our-vision-area .vision-content span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8094ff;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.our-vision-area .vision-content h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.our-vision-area .vision-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.our-vision-area .vision-content .vision-list {
+  margin-top: 30px;
+}
+.our-vision-area .vision-content .vision-list ul {
+  display: inline-block;
+}
+.our-vision-area .vision-content .vision-list ul li {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.our-vision-area .vision-content .vision-list ul li i {
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+/*
+Custom two column Area Style
+======================================================*/
+.custom-area {
+  background-color: #f2f2f2;
+  height: 100%;
+  overflow: hidden;
+}
+.custom-area .custom-content span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.custom-area .custom-content h1 {
+  color: #000000;
+  font-size: 54px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.custom-area .custom-content h2 {
+  color: #000000;
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.custom-area .custom-content p {
+  color: #000000;
+}
+.custom-area .custom-content .custom-list {
+  margin-top: 30px;
+}
+.custom-area .custom-content .custom-list ul {
+  display: inline-block;
+}
+.custom-area .custom-content .custom-list ul li {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.custom-area .custom-content .custom-list ul li i {
+  font-size: 21px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+.custom-area .custom-content .custom-list .custom-single-list {
+  padding-left: 60px;
+  position: relative;
+}
+.custom-area .custom-content .custom-list .custom-single-list i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 50px;
+  color: #000000;
+  line-height: 1;
+}
+.custom-area .custom-content .custom-list .custom-single-list span {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+.custom-area .custom-content .default-btn {
+  margin-top: 30px;
+}
+.custom-area .custom-img-3 {
+  position: relative;
+  float: right;
+}
+.custom-area .custom-img-3 img {
+  border-radius: 0 25% 0 0;
+}
+.custom-area .custom-img-3 .custom-img-2 {
+  position: absolute;
+  top: 35px;
+  left: -90px;
+}
+
+/*
+Custom two column Area with image Style
+======================================================*/
+.custom-area-image {
+  background-color: #ffffff;
+  height: 100%;
+  overflow: hidden;
+}
+.custom-area-image .custom-image-content span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.custom-area-image .custom-image-content h1 {
+  color: #000000;
+  font-size: 54px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.custom-area-image .custom-image-content h2 {
+  color: #000000;
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.custom-area-image .custom-image-content p {
+  color: #000000;
+}
+.custom-area-image .custom-image-content .custom-image-list {
+  margin-top: 30px;
+}
+.custom-area-image .custom-image-content .custom-image-list ul {
+  display: inline-block;
+}
+.custom-area-image .custom-image-content .custom-image-list ul li {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.custom-area-image .custom-image-content .custom-image-list ul li i {
+  font-size: 21px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+.custom-area-image .custom-image-content .custom-image-list .custom-image-single-list {
+  padding-left: 60px;
+  position: relative;
+}
+.custom-area-image .custom-image-content .custom-image-list .custom-image-single-list i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 50px;
+  color: #000000;
+  line-height: 1;
+}
+.custom-area-image .custom-image-content .custom-image-list .custom-image-single-list span {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+.custom-area-image .custom-image-content .default-btn {
+  margin-top: 30px;
+}
+.custom-area-image .custom-image-img-3 {
+  position: relative;
+  float: right;
+}
+.custom-area-image .custom-image-img-3 img {
+  border-radius: 0 25% 0 0;
+}
+.custom-area-image .custom-image-img-3 .custom-image-img-2 {
+  position: absolute;
+  top: 35px;
+  left: -90px;
+}
+
+/*
+Our Vision Area Style
+======================================================*/
+.our-vision-area {
+  position: relative;
+  background-color: #f4f4f4;
+}
+.our-vision-area .vision-content span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8094ff;
+  display: block;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.our-vision-area .vision-content h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.our-vision-area .vision-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+}
+.our-vision-area .vision-content .vision-list {
+  margin-top: 30px;
+}
+.our-vision-area .vision-content .vision-list ul {
+  display: inline-block;
+}
+.our-vision-area .vision-content .vision-list ul li {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", "proxima-nova", "Helvetica Neue", Helvetica, "Roboto", sans-serif;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.our-vision-area .vision-content .vision-list ul li i {
+  font-size: 25px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+
+/*
+Services Area Style
+======================================================*/
+.services-area {
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff;
+  z-index: 1;
+}
+.services-area .section-title span {
+  color: #8094ff;
+}
+.services-area .section-title h2 {
+  color: #000000;
+}
+.services-area .section-title p {
+  color: #000000;
+}
+.services-area .services-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.single-services {
+  padding: 30px;
+  transition: all 0.35s;
+  position: relative;
+  padding-left: 80px;
+  border: 1px solid #8094ff;
+  margin-bottom: 30px;
+  transition: all 0.35s;
+  background-color: #ffffff;
+}
+.single-services h3 {
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 600;
+}
+.single-services i {
+  font-size: 40px;
+  color: #FFD700;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  line-height: 1;
+  transition: all 0.35s;
+}
+.single-services p {
+  color: #000000;
+}
+.single-services a {
+  margin-top: 0px;
+  color: #000000;
+  font-size: 15px;
+}
+.single-services:hover {
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #8094ff;
+}
+.single-services:hover i {
+  color: #ffffff;
+}
+.single-services:hover h3 {
+  color: #ffffff;
+}
+.single-services:hover p {
+  color: #ffffff;
+}
+.single-services:hover a {
+  color: #ffffff;
+}
+
+/*
+Quat Area Style
+======================================================*/
+#get-a-quote {
+  background-color: #f4f4f4;
+}
+
+.get-quat-area .quat-form {
+  padding: 50px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #8094ff;
+  border-radius: 6px;
+}
+.get-quat-area .quat-form .default-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.get-quat-area .quat-form .form-control:focus {
+  background-color: #f9f9f9;
+}
+.get-quat-area .quat-form ul {
+  line-height: 1;
+}
+.get-quat-area .quat-form ul li {
+  display: inline-block;
+  font-weight: 800;
+}
+.get-quat-area .quat-form ul li a {
+  margin-left: 10px;
+}
+.get-quat-area .quat-form ul .right {
+  float: right;
+}
+.get-quat-area .quat-form .tabs {
+  margin-bottom: 21px;
+}
+.get-quat-area .quat-form .tabs li a {
+  margin-left: 0 !important;
+  padding-right: 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.get-quat-area .quat-form .tabs li a:hover {
+  color: #000000;
+}
+.get-quat-area .quat-form .tabs .current a {
+  color: #000000;
+}
+.get-quat-area .quat-form p {
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+.get-quat-area .quat-form .ratings li {
+  color: #ffffff;
+}
+.get-quat-area .quat-form .ratings li a {
+  color: #ffffff;
+}
+.get-quat-area .quat-form .ratings li a:hover {
+  color: #000000;
+}
+.get-quat-area .tab .tabs_item {
+  display: none;
+}
+.get-quat-area .tab .tabs_item:first-child {
+  display: block;
+}
+.get-quat-area .form-group {
+  margin-bottom: 30px;
+}
+.get-quat-area .nice-select {
+  float: unset;
+  line-height: 29px;
+}
+.get-quat-area .nice-select::after {
+  width: 8px !important;
+  height: 8px !important;
+}
+.get-quat-area .nice-select .option {
+  display: block;
+}
+
+/*
+Counter Area Style
+======================================================*/
+.counter-area {
+  background-color: #8094ff;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.counter-area .col-lg-3:nth-child(4) .single-counter {
+  border-right: none;
+}
+
+.single-counter {
+  text-align: center;
+  transition: all 0.35s;
+  margin-bottom: 30px;
+  border-right: 1px solid #ffffff;
+}
+.single-counter i {
+  color: #FFD700;
+  font-size: 54px;
+  line-height: 1;
+  display: block;
+  margin-bottom: 20px;
+}
+.single-counter p {
+  color: #ffffff;
+  line-height: 1;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+.single-counter h2 {
+  color: #ffffff;
+  line-height: 1;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.single-counter .target {
+  font-weight: 600;
+}
+
+/*
+Achievement Area Style
+======================================================*/
+.achievement-area {
+  padding-bottom: 130px;
+}
+.achievement-area .achievement-content span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8094ff;
+  display: block;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.achievement-area .achievement-content h1 {
+  font-size: 54px;
+  margin-bottom: 30px;
+  position: relative;
+  display: block;
+}
+.achievement-area .achievement-content h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  position: relative;
+  display: block;
+}
+.achievement-area .achievement-content .default-btn {
+  margin-top: 25px;
+}
+.achievement-area .achievement-list {
+  margin-top: 30px;
+}
+.achievement-area .achievement-list ul {
+  display: inline-block;
+}
+.achievement-area .achievement-list ul li {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.achievement-area .achievement-list ul li i {
+  color: #8094ff;
+  font-size: 21px;
+  font-weight: normal;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+.achievement-area .achievement-list ul li span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5;
+  text-transform: none;
+}
+.achievement-area .achievement-list .achievement-single-list {
+  padding-left: 60px;
+  position: relative;
+}
+.achievement-area .achievement-list .achievement-single-list i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-size: 50px;
+  color: #ffffff;
+  line-height: 1;
+}
+.achievement-area .achievement-list .achievement-single-list span {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.achievement-area .video-img {
+  position: relative;
+  z-index: 1;
+}
+.achievement-area .video-img::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #000000;
+  z-index: -1;
+}
+.achievement-area .video-img .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/*
+Agent Now Area Style
+======================================================*/
+.agent-now-area {
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 1;
+}
+.agent-now-area .call-now {
+  background-color: #8094ff;
+  position: relative;
+  padding: 50px;
+  padding-left: 165px;
+  border-radius: 2px;
+}
+.agent-now-area .call-now i {
+  line-height: 1;
+  font-size: 75px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: #ffffff;
+}
+.agent-now-area .call-now p {
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.agent-now-area .call-now span {
+  font-size: 27px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1;
+}
+.agent-now-area .subscribe-wrap {
+  background-color: #8094ff;
+  border-radius: 2px;
+  padding: 40px 50px;
+}
+.agent-now-area .subscribe-wrap p {
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.agent-now-area .subscribe-wrap .newsletter-form {
+  position: relative;
+}
+.agent-now-area .subscribe-wrap .newsletter-form .default-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+}
+.agent-now-area .subscribe-wrap .newsletter-form .form-control:focus {
+  background-color: #ffffff;
+}
+.agent-now-area .agent-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.agent-now-area .agent-shape img {
+  max-width: 100%;
+  height: 480px;
+}
+
+/*
+Testimonial Area Style
+======================================================*/
+.testimonial-area.bg {
+  background-color: #e5e5e5;
+}
+.testimonial-area .owl-carousel .owl-item img {
+  width: 100px;
+  margin: auto;
+}
+.testimonial-area .owl-theme .owl-nav {
+  margin-top: 0 !important;
+}
+.testimonial-area .owl-theme .owl-nav .owl-prev {
+  background-color: transparent !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-40px);
+  transition: all 0.35s;
+}
+.testimonial-area .owl-theme .owl-nav .owl-prev i {
+  color: #FFD700;
+  font-size: 18px;
+  position: relative;
+  left: -1px;
+}
+.testimonial-area .owl-theme .owl-nav .owl-next {
+  background-color: transparent !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% !important;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-40px);
+  transition: all 0.35s;
+}
+.testimonial-area .owl-theme .owl-nav .owl-next i {
+  color: #FFD700;
+  font-size: 18px;
+  position: relative;
+  right: -1px;
+}
+.testimonial-area .owl-theme:hover .owl-prev {
+  background-color: #677FFF !important;
+}
+.testimonial-area .owl-theme:hover .owl-prev i {
+  color: #ffffff;
+}
+.testimonial-area .owl-theme:hover .owl-next {
+  background-color: #677FFF !important;
+}
+.testimonial-area .owl-theme:hover .owl-next i {
+  color: #ffffff;
+}
+.testimonial-area .owl-item.active.center .single-client {
+  background-color: #000000;
+}
+.testimonial-area .owl-item.active.center .single-client h3 {
+  color: #ffffff;
+}
+.testimonial-area .owl-item.active.center .single-client span {
+  color: #8094ff;
+}
+.testimonial-area .owl-item.active.center .single-client p {
+  color: #ffffff;
+}
+.testimonial-area .owl-item.active.center .single-client .quotes {
+  color: #CDD4FF;
+  opacity: 0.2;
+}
+.testimonial-area .single-client {
+  background-color: #f2f7fd;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+.testimonial-area .single-client h3 {
+  color: #000000;
+}
+.testimonial-area .single-client span {
+  color: #8094ff;
+}
+.testimonial-area .single-client p {
+  color: #000000;
+}
+.testimonial-area .single-client .quotes {
+  color: #CDD4FF;
+  opacity: 0.5;
+}
+.testimonial-area .single-client:hover {
+  transform: translateY(0);
+}
+
+/*
+Business Contact Area Style
+======================================================*/
+.business-contact-area .row {
+  background-color: #000000;
+  border-radius: 2px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.business-contact-area .business-img img {
+  border-radius: 2px;
+}
+.business-contact-area .business-content {
+  padding: 30px;
+  position: relative;
+}
+.business-contact-area .business-content h3 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.business-contact-area .business-content p {
+  color: #ffffff;
+  position: absolute;
+  bottom: 33px;
+  left: 35%;
+  font-size: 16px;
+}
+.business-contact-area .business-content .default-btn {
+  background-color: #8094ff;
+}
+.business-contact-area .business-content .default-btn.active {
+  margin-left: 0px !important;
+}
+.business-contact-area .business-content .default-btn::before {
+  background-color: #ffffff !important;
+}
+.business-contact-area .business-content .default-btn::after {
+  background-color: #ffffff !important;
+}
+.business-contact-area .business-content .default-btn:hover {
+  color: #000000;
+}
+
+/*
+Blog Area Style
+======================================================*/
+.single-blog {
+  margin-bottom: 30px;
+  transition: all 0.35s;
+}
+.single-blog .blog-content {
+  padding: 30px;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #ffffff;
+  max-width: 380px;
+  margin: -30px auto 0;
+}
+.single-blog .blog-content::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #FFD700;
+  transition: all 0.35s;
+  z-index: -1;
+}
+.single-blog .blog-content::after {
+  content: "";
+  position: absolute;
+  right: -100%;
+  bottom: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #FFD700;
+  transition: all 0.35s;
+  z-index: -1;
+}
+.single-blog .blog-content ul {
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.single-blog .blog-content ul li {
+  display: inline-block;
+  color: #78a9e3;
+  border-right: 1px solid #78a9e3;
+  line-height: 1;
+  padding: 0 10px;
+  transition: all 0.35s;
+}
+.single-blog .blog-content ul li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.single-blog .blog-content ul li:first-child {
+  padding-left: 0;
+}
+.single-blog .blog-content ul li a {
+  color: #78a9e3;
+}
+.single-blog .blog-content ul li a:hover {
+  color: #FFD700;
+}
+.single-blog .blog-content h3 {
+  margin-bottom: 20px;
+  transition: all 0.35s;
+  line-height: 1.5;
+}
+.single-blog .blog-content p {
+  margin-bottom: 20px;
+  transition: all 0.35s;
+}
+.single-blog .blog-content .read-more:hover i {
+  color: #ffffff;
+}
+.single-blog:hover {
+  transform: translateY(-5px);
+}
+.single-blog:hover .blog-content ul li {
+  color: #ffffff;
+}
+.single-blog:hover .blog-content ul li a {
+  color: #ffffff;
+}
+.single-blog:hover .blog-content h3 {
+  color: #ffffff;
+}
+.single-blog:hover .blog-content p {
+  color: #ffffff;
+}
+.single-blog:hover .blog-content .read-more {
+  color: #ffffff;
+}
+.single-blog:hover .blog-content::before {
+  left: 0;
+}
+.single-blog:hover .blog-content::after {
+  right: 0;
+}
+
+/*
+Footer Top Area Style
+======================================================*/
+.footer-top-area {
+  background-image: url(../../assets/img/#);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.footer-top-area::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f5f5f5;
+  z-index: -1;
+  opacity: 1;
+}
+
+.single-widget {
+  margin-bottom: 30px;
+}
+.single-widget img {
+  margin-bottom: 20px;
+}
+.single-widget h3 {
+  color: #3f3f3f;
+  font-size: 18px;
+  margin-bottom: 30px;
+  position: relative;
+  padding-bottom: 15px;
+}
+.single-widget h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 1px;
+  background-color: #3f3f3f;
+}
+.single-widget p {
+  margin-bottom: 0;
+  color: #3f3f3f;
+  font-size: 14px;
+}
+.single-widget ul li {
+  color: #8094ff;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.single-widget ul li:last-child {
+  margin-bottom: 0;
+}
+.single-widget ul li span {
+  color: #000000;
+}
+.single-widget ul li a {
+  color: #3f3f3f;
+  transition: all 0.35s;
+}
+.single-widget ul li a i {
+  display: inline-block;
+  margin-right: 2px;
+  font-size: 27px;
+}
+.single-widget ul li a:hover {
+  transform: translateX(2px);
+  color: #000000;
+}
+.single-widget .social-area {
+  margin-top: 20px;
+}
+.single-widget .social-area ul {
+  line-height: 1;
+}
+.single-widget .social-area ul li {
+  display: inline-block;
+}
+.single-widget .social-area ul li a {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  line-height: 28px;
+  background-color: #3f3f3f;
+  border-radius: 2px;
+  text-align: center;
+}
+.single-widget .social-area ul li a:hover {
+  background-color: #000000;
+}
+.single-widget .social-area ul li a i {
+  color: #f5f5f5;
+  transition: all 0.35s;
+  margin-right: 0;
+  margin-top: 4px;
+}
+.single-widget .social-area ul li a:hover {
+  border-color: #000000;
+  transform: translateX(-2px);
+}
+.single-widget .social-area ul li a:hover i {
+  color: #ffffff;
+}
+.single-widget .footer-btn {
+  margin-top: 20px;
+}
+.single-widget .footer-btn li {
+  display: inline-block;
+  max-width: 45%;
+  margin-right: 10px;
+}
+.single-widget .footer-btn li:last-child {
+  margin-right: 0;
+}
+.single-widget.contact ul li {
+  position: relative;
+  padding-left: 30px;
+  color: #3f3f3f;
+}
+.single-widget.contact ul li a {
+  color: #3f3f3f;
+}
+.single-widget.contact ul li a:hover {
+  color: #000000;
+}
+.single-widget.contact ul li i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #000000;
+  font-size: 20px;
+}
+.single-widget.contact ul li span {
+  font-size: 16px;
+  display: block;
+  font-weight: 600;
+  color: #000000;
+}
+.single-widget .newsletter-p {
+  margin-bottom: 20px;
+}
+.single-widget .default-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+.single-widget .form-control:focus {
+  background-color: #ffffff;
+}
+.single-widget #validator-newsletter {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/*
+Footer Bottom Area Style
+======================================================*/
+.footer-bottom-area {
+  background-color: #8094ff;
+  padding: 20px 0;
+}
+.footer-bottom-area .copy-right {
+  text-align: left;
+}
+.footer-bottom-area .copy-right p {
+  text-transform: capitalize;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+.footer-bottom-area .copy-right p i {
+  position: relative;
+  top: 1px;
+}
+.footer-bottom-area .copy-right p a {
+  color: #ffffff;
+}
+.footer-bottom-area .copy-right p a:hover {
+  color: #000000;
+}
+.footer-bottom-area .copy-right p a.active {
+  color: #000000;
+}
+
+/*====================================================
+HOME PAGE TWO STYLE
+======================================================*/
+/*
+Nav Style Two
+======================================================*/
+.nev-style-two .navbar-area .main-nav nav .navbar-nav .nav-item a {
+  color: #3f3f3f;
+}
+.nev-style-two .navbar-area .main-nav nav .navbar-nav .nav-item a:hover {
+  color: #000000;
+}
+.nev-style-two .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
+  color: #000000;
+}
+
+/*
+Main Banner Area Two
+======================================================*/
+.main-banner-area-two {
+  position: relative;
+  background-image: url(../../assets/img/banner/banner-img-2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+  overflow: hidden;
+}
+.main-banner-area-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #03051e, rgba(1, 45, 111, 0.8));
+  z-index: -1;
+}
+.main-banner-area-two .banner-text {
+  position: relative;
+  padding-top: 225px;
+  padding-bottom: 95px;
+  max-width: 635px;
+  margin-left: auto;
+}
+.main-banner-area-two .banner-text span {
+  font-size: 26px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.main-banner-area-two .banner-text h1 {
+  font-size: 45px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.main-banner-area-two .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.main-banner-area-two .banner-img {
+  background-image: url(../../assets/img/banner/banner-img-right.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border-radius: 50% 0 0 50%;
+}
+
+/*
+Choose Us Area
+======================================================*/
+.choose-us-area {
+  position: relative;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  z-index: 1;
+}
+.choose-us-area .section-title span {
+  color: #8094ff;
+}
+.choose-us-area .section-title h2 {
+  color: #000000;
+}
+.choose-us-area .section-title p {
+  color: #000000;
+}
+.choose-us-area .services-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.single-choose {
+  padding: 30px;
+  transition: all 0.35s;
+  position: relative;
+  border: 1px solid #8094ff;
+  margin-bottom: 30px;
+  transition: all 0.35s;
+  background-color: #ffffff;
+}
+.single-choose h3 {
+  margin-bottom: 15px;
+  color: #000000;
+}
+.single-choose i {
+  font-size: 40px;
+  color: #FFD700;
+  left: 30px;
+  top: 30px;
+  line-height: 1;
+  transition: all 0.35s;
+}
+.single-choose p {
+  color: #000000;
+}
+.single-choose a {
+  margin-top: 20px;
+  color: #000000;
+  font-size: 15px;
+}
+.single-choose:hover {
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  background-color: #8094ff;
+}
+.single-choose:hover span {
+  color: #ffffff;
+}
+.single-choose:hover i {
+  color: #ffffff;
+}
+.single-choose:hover h3 {
+  color: #ffffff;
+}
+.single-choose:hover p {
+  color: #ffffff;
+}
+.single-choose:hover a {
+  color: #ffffff;
+}
+
+/*
+Choose Us Area Two
+======================================================*/
+.choose-us-area-two .single-choose {
+  border: none;
+}
+.choose-us-area-two .single-choose span {
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+}
+
+/*
+Service Area Two Style
+======================================================*/
+.service-area-two .single-service {
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.35s;
+}
+.service-area-two .single-service img {
+  border-radius: 2px 2px 0 0;
+}
+.service-area-two .single-service .service-content {
+  padding: 30px;
+  padding-top: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+.service-area-two .single-service .service-content .icon-style {
+  font-size: 35px;
+  background-color: #FFD700;
+  line-height: 70px;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+  top: -36px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.service-area-two .single-service .service-content h3 {
+  margin-bottom: 15px;
+}
+.service-area-two .single-service .service-content p {
+  margin-bottom: 20px;
+}
+.service-area-two .single-service .service-content a {
+  color: #ffffff;
+  line-height: 1;
+  z-index: 1;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #FFD700;
+  border-radius: 50%;
+}
+.service-area-two .single-service .service-content a i {
+  font-size: 25px;
+  position: relative;
+  line-height: 30px;
+  top: 1px;
+  left: 1px;
+}
+.service-area-two .single-service:hover {
+  transform: translateX(-5px);
+}
+.service-area-two .single-service:hover .service-content .icon-style {
+  animation: bounce 1s linear;
+}
+
+/*
+Chooses Us Area Two Style
+======================================================*/
+.chooses-us-area-two {
+  background-image: url(../img/choose-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.chooses-us-area-two .section-title {
+  margin-left: unset;
+  margin-right: auto;
+  text-align: left;
+  max-width: 460px;
+}
+.chooses-us-area-two .section-title span {
+  color: #ffffff;
+}
+.chooses-us-area-two .section-title h2 {
+  color: #ffffff;
+}
+.chooses-us-area-two .section-title p {
+  color: #ffffff;
+}
+.chooses-us-area-two .choose-us-wrap {
+  max-width: 460px;
+}
+.chooses-us-area-two .choose-us-wrap ul li {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 75px;
+}
+.chooses-us-area-two .choose-us-wrap ul li i {
+  font-size: 50px;
+  color: #2f89fc;
+  line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.chooses-us-area-two .choose-us-wrap ul li h3 {
+  color: #ffffff;
+}
+.chooses-us-area-two .choose-us-wrap ul li p {
+  color: #ffffff;
+}
+
+/*
+Health Insurance- Landing Page Banner (Chooses Us Area Two Style)
+======================================================*/
+.chooses-us-area-health-insurance {
+  background-image: url(../img/health-insurance.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.chooses-us-area-health-insurance .section-title {
+  margin-left: unset;
+  margin-right: auto;
+  text-align: left;
+  max-width: 460px;
+}
+.chooses-us-area-health-insurance .section-title span {
+  color: #000000;
+}
+.chooses-us-area-health-insurance .section-title h1 {
+  color: #000000;
+}
+.chooses-us-area-health-insurance .section-title h2 {
+  color: #000000;
+}
+.chooses-us-area-health-insurance .section-title p {
+  color: #000000;
+}
+.chooses-us-area-health-insurance .choose-us-wrap {
+  max-width: 460px;
+}
+.chooses-us-area-health-insurance .choose-us-wrap ul li {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 75px;
+}
+.chooses-us-area-health-insurance .choose-us-wrap ul li i {
+  font-size: 50px;
+  color: #8094ff;
+  line-height: 1;
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+.chooses-us-area-health-insurance .choose-us-wrap ul li h3 {
+  color: #000000;
+}
+.chooses-us-area-health-insurance .choose-us-wrap ul li p {
+  color: #000000;
+}
+
+/*
+Counter Area Two Style
+======================================================*/
+.counter-area-two {
+  background-image: url(../../assets/img/counter-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.counter-area-two .col-lg-3:nth-child(4) .single-counter {
+  border-right: none;
+}
+.counter-area-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.9;
+  z-index: -1;
+}
+.counter-area-two .single-counter h2 {
+  color: #ffffff;
+}
+.counter-area-two .single-counter p {
+  color: #ffffff;
+}
+
+/*
+Testimonial Wrap Two Style
+======================================================*/
+.testimonial-wrap-two .single-client {
+  position: relative;
+  text-align: left;
+  padding: 30px;
+  padding-left: 160px;
+}
+.testimonial-wrap-two .single-client img {
+  position: unset;
+  border-radius: 4px;
+  display: inline-block;
+}
+.testimonial-wrap-two .single-client .client-text {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.testimonial-wrap-two .single-client .client-text h3 {
+  margin-top: 40px;
+}
+.testimonial-wrap-two .single-client .quotes {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  line-height: 1;
+  color: #CDD4FF;
+  opacity: 0.5;
+  width: unset;
+  height: unset;
+  font-size: 40px;
+  justify-content: unset;
+  align-items: unset;
+  display: unset;
+  top: unset;
+  left: unset;
+  transform: rotate(180deg);
+}
+
+/*
+Any Contact Area Style
+======================================================*/
+.any-contact-area .row {
+  background-color: #262566;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.any-contact-area .contact-text {
+  padding: 30px;
+}
+.any-contact-area .contact-text h3 {
+  color: #ffffff;
+}
+.any-contact-area .contact-call {
+  padding: 30px;
+}
+.any-contact-area .contact-call h3 {
+  color: #ffffff;
+}
+.any-contact-area .contact-call h3 i {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+/*====================================================
+HOME PAGE THREE STYLE
+======================================================*/
+/*
+Header Area Three Style
+======================================================*/
+.header-area-three .top-header-area {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-area-three .top-header-area .header-content-right li a:hover {
+  color: #ffffff;
+}
+.header-area-three .nav-area .navbar-area .navbar {
+  background-color: #000000 !important;
+  max-width: 1120px;
+  margin: 20px auto 0;
+  position: relative;
+}
+.header-area-three .nav-area .navbar-area .navbar::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  background-color: #888894;
+  z-index: -1;
+  opacity: 0.5;
+}
+.header-area-three .nav-area .navbar-area.is-sticky .navbar {
+  margin-top: 0;
+  max-width: 100%;
+}
+.header-area-three .nav-area .navbar-area.is-sticky .navbar::after {
+  display: none;
+}
+
+/*
+Hero Slider Area Style
+======================================================*/
+.hero-slider-area .slider-item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.hero-slider-area .slider-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.8;
+  z-index: -1;
+}
+.hero-slider-area .slider-item.slider-item-bg-1 {
+  background-image: url(../img/slider/auto-insurance.svg);
+}
+.hero-slider-area .slider-item.slider-item-bg-2 {
+  background-image: url(../img/slider/auto-insurance.svg);
+}
+.hero-slider-area .slider-item.slider-item-bg-3 {
+  background-image: url(../img/slider/home-insurance.svg);
+}
+.hero-slider-area .slider-item.slider-item-bg-4 {
+  background-image: url(../img/slider/4.jpg);
+}
+.hero-slider-area .slider-item .slider-text {
+  text-align: center;
+  position: relative;
+  max-width: 690px;
+  margin: 130px auto 0;
+  z-index: 1;
+}
+.hero-slider-area .slider-item .slider-text span {
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+.hero-slider-area .slider-item .slider-text h1 {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.hero-slider-area .slider-item .slider-text p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.hero-slider-area .slider-item .slider-text .slider-btn .default-btn {
+  margin: 0 20px;
+}
+.hero-slider-area .slider-item .slider-text .slider-btn .default-btn.white {
+  color: #ffffff;
+}
+.hero-slider-area .owl-item.active .slider-text.overflow-hidden {
+  overflow: hidden;
+}
+.hero-slider-area .owl-item.active .slider-text.one span {
+  animation: 1s 0.1s fadeInUpBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.one .video-btn-animat {
+  animation: 1s 0.1s fadeInUpBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.one h1 {
+  animation: 2s 0.2s fadeInUpBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.one p {
+  animation: 3s 0.3s fadeInUpBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.one .slider-btn {
+  animation: 4s 0.4s fadeInUpBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.two span {
+  animation: 2s 0.2s fadeInDownBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.two .video-btn-animat {
+  animation: 2s 0.2s fadeInDownBig both;
+}
+.hero-slider-area .owl-item.active .slider-text.two h1 {
+  animation: 2s 0.2s fadeInLeft both;
+}
+.hero-slider-area .owl-item.active .slider-text.two p {
+  animation: 2s 0.2s fadeInRight both;
+}
+.hero-slider-area .owl-item.active .slider-text.two .slider-btn {
+  animation: 2s 0.2s fadeInUpBig both;
+}
+.hero-slider-area .owl-theme .owl-dots {
+  margin-top: 0 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+.hero-slider-area .owl-theme .owl-dots .owl-dot span {
+  width: 30px;
+  height: 10px;
+  transition: all 0.35s;
+  background-color: #bdbdbf;
+}
+.hero-slider-area .owl-theme .owl-dots .owl-dot.active span {
+  background-color: #FFD700;
+  width: 40px;
+}
+.hero-slider-area .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #FFD700;
+}
+
+/*
+Slide Fromt Image Background Area Style
+======================================================*/
+.slide-front-image-bg-area {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.slide-front-image-bg-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.slide-front-image-bg-area .banner-text {
+  position: relative;
+}
+.slide-front-image-bg-area .banner-text span {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.slide-front-image-bg-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.slide-front-image-bg-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.slide-front-image-bg-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.slide-front-image-bg-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.slide-front-image-bg-area {
+  position: relative;
+  background-image: url(../../assets/img/slider/insured-sign.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/*
+Slide Image Background Area Style
+======================================================*/
+.slide-image-bg-area {
+  position: relative;
+  background-color: #CDD4FF;
+  z-index: -1;
+  overflow: hidden;
+}
+.slide-image-bg-area .banner-text {
+  max-width: 635px;
+  margin-left: auto;
+}
+.slide-image-bg-area .banner-text {
+  position: relative;
+}
+.slide-image-bg-area .banner-text span {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 600;
+}
+.slide-image-bg-area .banner-text h1 {
+  font-size: 54px;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+.slide-image-bg-area .banner-text p {
+  font-size: 16px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+.slide-image-bg-area .shape {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  z-index: -1;
+}
+.slide-image-bg-area .banner-shape-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.slide-image-bg-area {
+  position: relative;
+  background-image: url(../../assets/img/slider/auto-insurance-background.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/*
+Custom Hero Slider Area Style
+======================================================*/
+.custom-hero-slider-area .slider-item {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.custom-hero-slider-area .slider-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+.custom-hero-slider-area .slider-item.slider-item-bg-1 {
+  background-image: url(../img/slide2.webp);
+  height: 100vh;
+}
+.custom-hero-slider-area .slider-item.slider-item-bg-2 {
+  background-image: url(../img/slide5.webp);
+  height: 100vh;
+}
+.custom-hero-slider-area .slider-item.slider-item-bg-3 {
+  background-image: url(../img/slide4.webp);
+  height: 100vh;
+}
+
+.custom-hero-slider-area .slider-item.slider-item-bg-12 {
+  background-image: url(../img/slider/notary-public.svg);
+  height: 100vh;
+}
+.custom-hero-slider-area .slider-item .slider-text {
+  text-align: center;
+  position: relative;
+  max-width: 690px;
+  margin: 130px auto 0;
+  z-index: 1;
+}
+.custom-hero-slider-area .slider-item .slider-text span {
+  color: #ffffff;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+}
+.custom-hero-slider-area .slider-item .slider-text h1 {
+  font-size: 60px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.custom-hero-slider-area .slider-item .slider-text p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.custom-hero-slider-area .slider-item .slider-text .slider-btn .default-btn {
+  margin: 0 20px;
+}
+.custom-hero-slider-area .slider-item .slider-text .slider-btn .default-btn.white {
+  color: #ffffff;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.overflow-hidden {
+  overflow: hidden;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.one span {
+  animation: 1s 0.1s fadeInUpBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.one .video-btn-animat {
+  animation: 1s 0.1s fadeInUpBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.one h1 {
+  animation: 2s 0.2s fadeInUpBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.one p {
+  animation: 3s 0.3s fadeInUpBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.one .slider-btn {
+  animation: 4s 0.4s fadeInUpBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.two span {
+  animation: 2s 0.2s fadeInDownBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.two .video-btn-animat {
+  animation: 2s 0.2s fadeInDownBig both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.two h1 {
+  animation: 2s 0.2s fadeInLeft both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.two p {
+  animation: 2s 0.2s fadeInRight both;
+}
+.custom-hero-slider-area .owl-item.active .slider-text.two .slider-btn {
+  animation: 2s 0.2s fadeInUpBig both;
+}
+.custom-hero-slider-area .owl-theme .owl-dots {
+  margin-top: 0 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+.custom-hero-slider-area .owl-theme .owl-dots .owl-dot span {
+  width: 30px;
+  height: 10px;
+  transition: all 0.35s;
+  background-color: #bdbdbf;
+}
+.custom-hero-slider-area .owl-theme .owl-dots .owl-dot.active span {
+  background-color: #FFD700;
+  width: 40px;
+}
+.custom-hero-slider-area .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #FFD700;
+}
+
