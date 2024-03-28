@@ -1,5 +1,5 @@
 <?php include 'includes/functions.php'; ?>
-<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 navbar-sticky top-0">
     <a href="index.php" class="navbar-brand p-0">
         <!-- <h1 class="m-0">Innovate</h1> -->
         <img src="img/Logo.png" alt="Logo">
