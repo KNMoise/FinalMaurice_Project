@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Innovate Get Started</title>
+  <title>Get Started</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta content="" name="keywords" />
   <meta content="" name="description" />

@@ -79,6 +79,8 @@
 
                 <!-- About Start -->
                 <?php require 'includes/aboutSmall.php'; ?>
+                <?php require 'includes/slog.php'; ?>
+
                 <!-- About End -->
                 <!-- Facts Start -->
                 <?php require 'includes/facts.php'; ?>

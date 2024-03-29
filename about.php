@@ -60,13 +60,11 @@
             </p>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <h1 class="mb-5">
-                # Innovate<span style="color: #f26722">with</span>us
+                INNOVATE<span style="color: #f26722">WITH</span>US Ltd
+                <hr>
               </h1>
               <p class="mb-4">
-                We specialize in guiding businesses to success, integrating
-                cutting-edge tech, and providing streamlined document solutions.
-                Say goodbye to chaos and embrace efficiency with us. Welcome to
-                a future of innovation and growth.
+                IWU LTD is an innovative services provider company specializing in Digital transformation solutions, Business consulting, Records and information management solutions among other services. Founded in 2018, our vision is to become the preferred technology solutions and services provider in Rwanda and in the region, by providing high-quality and cost-effective technology driven solutions, products and services to our clients and our partners
               </p>
               <div class="skill mb-4">
                 <div class="d-flex justify-content-between">
@@ -111,28 +109,34 @@
             <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
               <div class="card-body">
                 <h2 class="card-title">Vision</h2>
-                <p class="card-text">To be the leading consultancy firm in driving digital transformation and providing efficient document management solutions for businesses worldwide.</p>
+                <p class="card-text">To become the preferred technology services provider in Rwanda and in the region.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
+            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">
                 <h2 class="card-title">Mission</h2>
-                <p class="card-text">Our mission is to empower businesses with innovative strategies and technologies, guiding them towards sustainable growth and success.</p>
+                <p class="card-text">Our mission is to deliver exceptional value to our clients and partners through:</p>
+                <p class="card-text">- Developing innovative and cost-effective technology solutions and services.<br>
+                  - Collaborating closely with our customers to create technology-driven business solutions that contribute to societal well-being.<br>
+                  - Forging strategic partnerships with leading global technology manufacturers to tailor the best solutions to our customers' specific needs.</p>
               </div>
             </div>
           </div>
+
+
           <div class="col-lg-4">
             <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
               <div class="card-body">
-                <h2 class="card-title">Values</h2>
+                <h2 class="card-title">Core Values</h2>
                 <ul class="list-group list-group-flush">
-                  <p style="color: bg-white;">Excellence</p>
-                  <p style="color: bg-white;">Innovation</p>
-                  <p style="color: bg-white;">Integrity</p>
-                  <p style="color: bg-white;">Client-Centricity</p>
-                  <p style="color: bg-white;">Continuous Improvement</p>
+                  <p style="color: bg-white;">- Trust, integrity and respect;</p>
+                  <p style="color: bg-white;">- Honesty and confidentiality; </p>
+                  <p style="color: bg-white;">Teamwork, partnership and flexibility, </p>
+                  <p style="color: bg-white;">Innovative thinking; </p>
+                  <p style="color: bg-white;">Delivering quality solutions, products and services that add value to businesses and</p>
+                  <p style="color: bg-white;">Long-term commitment with our customers, suppliers and employees.</p>
                 </ul>
               </div>
             </div>
