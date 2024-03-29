@@ -33,7 +33,7 @@
 </head>
 
 <body >
-    <div class="container-xxl p-0" style="background-image: url('img/hm/business.jpg'); ">
+    <div class="container-xxl p-0" style="background-image: url('img/business.jpg'); ">
         <!-- Spinner Start -->
         <?php require 'includes/spinner.php'; ?>
         <!-- Spinner End -->

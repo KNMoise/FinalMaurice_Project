@@ -32,7 +32,7 @@
   <link href="css/style.css" rel="stylesheet" />
 </head>
 
-<body style="background-image: url('img/hm/business.jpg')">
+<body style="background-image: url('img/business.jpg')">
   <!-- Spinner Start -->
   <?php require 'includes/spinner.php'; ?>
   <!-- Spinner End -->

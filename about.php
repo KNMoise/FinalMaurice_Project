@@ -95,7 +95,7 @@
                   <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
-              <a href="about.html" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
+              <a href="service.php" class="btn btn-secondary py-sm-3 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
             </div>
             <div class="col-lg-6">
               <img class="img-fluid wow zoomIn" data-wow-delay="0.5s" src="img/about.png" />
