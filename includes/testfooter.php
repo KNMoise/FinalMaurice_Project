@@ -276,15 +276,17 @@
     </div>
     <div class="footer-right">
         <p class="footer-company-about" style="color: #fff;">
-            <span>Business slogan </span>
-
-            At wide tech “Quality is not an act, it is a habit”
-            This assures our clients that we keep developing quality as a talent for the things we have been repeatedly practicing. We adopt a continuous standards maintenance and continuous learning to prevent bad routines in our procedures. This should ensure our customers that any assignment given to WTC LTD is undertaken with the highest quality.
+            <span>About InnovateWithUs</span>
+            We specialize in consultancy, digital transformation, and document management solutions. With a focus on innovation and client satisfaction, we empower businesses to thrive in today's dynamic market.
         </p>
         <div class="d-flex pt-2">
-            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-            <div style="margin: 10px;"></div>
-            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social" href=""
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <div style="margin: 10px;"></div>
+          <a class="btn btn-outline-light btn-social" href=""
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
         </div>
     </div>
 
