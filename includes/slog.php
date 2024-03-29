@@ -16,7 +16,7 @@
         }
 
         header {
-            /* background-color: rgba(255, 255, 255, 0.2); */
+            background-color: rgba(255, 255, 255, 0.2);
             /* Semi-transparent white */
             backdrop-filter: blur(10px);
             /* Apply blur effect */
@@ -67,15 +67,6 @@
 </head>
 
 <body>
-
-    <header>
-        <h1>Welcome to My Website</h1>
-    </header>
-
-    <main>
-        <p>This is the main content of the website.</p>
-    </main>
-
     <div id="overlay" class="overlay">
         <div class="overlay-content">
             <span class="close-btn" onclick="closeOverlay()">X</span>

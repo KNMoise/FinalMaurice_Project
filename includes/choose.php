@@ -217,9 +217,9 @@
                     class="fables-iconbussiness4 fables-second-text-color fa-3x"
                     style="color:#f26722"></span>
                 <h2 class="fables-main-text-color font-18 my-2">
-                    START NOW ! Tomorrow grants samples
+                    GET IN TOUCH TODAY!
                 </h2>
-                <p class="fables-forth-text-color font-15">
+                <p class="fables-forth-text-color font-15" a href="#contact.php">
                     Grow your business with innovatewithus and see how the leverage your business
                     becomne on the market competing with other and management
                 </p>

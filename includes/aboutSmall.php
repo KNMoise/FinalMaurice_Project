@@ -7,13 +7,14 @@
       </p>
       <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
         <h1 class="mb-5">
-          # Innovate<span style="color: #f26722">with</span>us
+          INNOVATE<span style="color: #f26722">WITH</span>US
         </h1>
+        <hr>
         <p class="mb-4">
-          We specialize in guiding businesses to success, integrating
-          cutting-edge tech, and providing streamlined document solutions.
-          Say goodbye to chaos and embrace efficiency with us. Welcome to
-          a future of innovation and growth.
+          IWU LTD is an innovative services provider company specializing in Digital transformation solutions,
+          Business consulting, Records and information management solutions among other services. Founded in 2018,
+          our vision is to become the preferred technology solutions and services provider in Rwanda and in the region,
+          by providing high-quality and cost-effective technology driven solutions, products and services to our clients and our partners
         </p>
         <div class="skill mb-4">
           <div class="d-flex justify-content-between">

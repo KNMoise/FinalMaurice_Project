@@ -124,7 +124,7 @@ body {
             </div>
             <div class="timeline-content">
               <h3 class="timeline-title">Founding of Innovate</h3>
-              <p class="timeline-text">Innovate was founded in [Year] with a vision to revolutionize the way businesses leverage technology for growth.</p>
+              <p class="timeline-text">Innovate was founded in 2018 with a vision to become the preferred technology services provider in Rwanda and in the region</p>
             </div>
           </div>
           <!-- Timeline Item 2 -->
@@ -134,27 +134,27 @@ body {
             </div>
             <div class="timeline-content">
               <h3 class="timeline-title">Expansion of Services</h3>
-              <p class="timeline-text">As demand for digital transformation grew, Innovate expanded its services to include software consultancy, project management, and document management solutions.</p>
+              <p class="timeline-text">As demand for digital transformation grew, iwu ltd expanded its services to include software consultancy, project management, and document management solutions.</p>
             </div>
           </div>
           <!-- Timeline Item 3 -->
-          <div class="timeline-item">
+          <!-- <div class="timeline-item">
             <div class="timeline-icon">
               <i class="bi bi-trophy text-primary"></i>
             </div>
             <div class="timeline-content">
               <h3 class="timeline-title">Recognition and Awards</h3>
               <p class="timeline-text">Innovate received several awards and recognition for its innovative approach and successful projects in driving digital transformation for clients across various industries.</p>
-            </div>
-          </div>
+            </div> -->
+          <!-- </div> -->
           <!-- Timeline Item 4 -->
           <div class="timeline-item">
             <div class="timeline-icon">
               <i class="bi bi-globe text-primary"></i>
             </div>
             <div class="timeline-content">
-              <h3 class="timeline-title">Global Reach</h3>
-              <p class="timeline-text">Today, Innovate serves clients worldwide, helping them navigate the complexities of the digital landscape and achieve sustainable growth through tailored solutions.</p>
+              <h3 class="timeline-title">Region Reach</h3>
+              <p class="timeline-text">Today, iwu ltd serves clients regional, helping them navigate the complexities of the digital landscape and achieve sustainable growth through tailored solutions.</p>
             </div>
           </div>
         </div>
