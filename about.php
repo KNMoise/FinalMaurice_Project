@@ -113,7 +113,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <!-- <div class="col-lg-4">
             <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">
                 <h2 class="card-title">Mission</h2>
@@ -124,11 +124,20 @@
                   - Forging strategic partnerships with leading global technology manufacturers to tailor the best solutions to our customers' specific needs.</p>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
+            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">
-                <h2 class="card-title">Core Values</h2>
+                <h2 class="card-title">Mission</h2>
+                <p class="card-text" id="missionText">Our mission is to deliver exceptional value to our clients and partners through:<span id="ellipsis">...</span><span id="moreText" style="display:none;">- Developing innovative and cost-effective technology solutions and services.<br>- Collaborating closely with our customers to create technology-driven business solutions that contribute to societal well-being.<br>- Forging strategic partnerships with leading global technology manufacturers to tailor the best solutions to our customers' specific needs.</span></p>
+                <button onclick="toggleText()" id="toggleButton">Continue Reading</button>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-4">
+            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
+            <h2 class="card-title">Core Values</h2>
+            <div class="card-body" id="missionText">
                 <ul class="list-group list-group-flush">
                   <p style="color: bg-white;">i) Trust, integrity and respect;</p>
                   <p style="color: bg-white;">ii) Honesty and confidentiality; </p>
@@ -137,6 +146,23 @@
                   <p style="color: bg-white;">v) Delivering quality solutions, products and services that add value to businesses and</p>
                   <p style="color: bg-white;">vi)Long-term commitment with our customers, suppliers and employees.</p>
                 </ul>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-lg-4">
+            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
+              <div class="card-body">
+                <h2 class="card-title">Core Values</h2>
+                <p class="card-text" id="coreValuesText">Trust, integrity, and respect;
+                  <span id="moreValues" style="display:none;">
+                    Honesty and confidentiality; <br>
+                    Teamwork, partnership, and flexibility; <br>
+                    Innovative thinking; <br>
+                    Delivering quality solutions, products, and services that add value to businesses; <br>
+                    Long-term commitment with our customers, suppliers, and employees.
+                  </span>
+                </p>
+                <button onclick="toggleValues()" id="valuesButton">Continue Reading</button>
               </div>
             </div>
           </div>
@@ -173,6 +199,36 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/pop/script.js"></script>
+    <script>
+      function toggleText() {
+        var moreText = document.getElementById("moreText");
+        var ellipsis = document.getElementById("ellipsis");
+        var btnText = document.getElementById("toggleButton");
+
+        if (moreText.style.display === "none") {
+          moreText.style.display = "inline";
+          ellipsis.style.display = "none";
+          btnText.textContent = "Less";
+        } else {
+          moreText.style.display = "none";
+          ellipsis.style.display = "inline";
+          btnText.textContent = "Continue Reading";
+        }
+      }
+
+      function toggleValues() {
+        var moreValues = document.getElementById("moreValues");
+        var btnText = document.getElementById("valuesButton");
+
+        if (moreValues.style.display === "none") {
+          moreValues.style.display = "inline";
+          btnText.textContent = "Read Less";
+        } else {
+          moreValues.style.display = "none";
+          btnText.textContent = "Continue Reading";
+        }
+      }
+    </script>
 </body>
 
 </html>
