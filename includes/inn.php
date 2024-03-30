@@ -124,7 +124,7 @@ body {
             </div>
             <div class="timeline-content">
               <h3 class="timeline-title">Founding of Innovate</h3>
-              <p class="timeline-text">Innovate was founded in 2018 with a vision to become the preferred technology services provider in Rwanda and in the region</p>
+              <p class="timeline-text">Innovate was founded in 2018 with a vision to become the preferred technology services provider in Rwanda and in the region.</p>
             </div>
           </div>
           <!-- Timeline Item 2 -->
