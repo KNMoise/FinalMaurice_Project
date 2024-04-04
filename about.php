@@ -31,7 +31,6 @@
   <!-- Template Stylesheet -->
   <link href="css/style.css" rel="stylesheet" />
   <link rel="css/pop/style.css" href="stylesheet">
-
 </head>
 
 <body>
@@ -106,7 +105,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
+            <div class="card" style="backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
               <div class="card-body">
                 <h2 class="card-title">Vision</h2>
                 <p class="card-text">To become the preferred technology services provider in Rwanda and in the region.</p>
@@ -126,11 +125,12 @@
             </div>
           </div> -->
           <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
+            <div class="card" style="backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">
                 <h2 class="card-title">Mission</h2>
                 <p class="card-text" id="missionText">Our mission is to deliver exceptional value to our clients and partners through:<span id="ellipsis">...</span><span id="moreText" style="display:none;">- Developing innovative and cost-effective technology solutions and services.<br>- Collaborating closely with our customers to create technology-driven business solutions that contribute to societal well-being.<br>- Forging strategic partnerships with leading global technology manufacturers to tailor the best solutions to our customers' specific needs.</span></p>
-                <button onclick="toggleText()" id="toggleButton">Continue Reading</button>
+                <!-- <button onclick="toggleText()" id="toggleButton">Continue Reading</button> -->
+                <button onclick="toggleText()" class="custom-button">Continue Reading</button>
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@
             </div>
           </div> -->
           <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
+            <div class="card" style="backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">
                 <h2 class="card-title">Core Values</h2>
                 <p class="card-text" id="coreValuesText">Trust, integrity, and respect;
@@ -162,7 +162,7 @@
                     Long-term commitment with our customers, suppliers, and employees.
                   </span>
                 </p>
-                <button onclick="toggleValues()" id="valuesButton">Continue Reading</button>
+                <button onclick="toggleValues()" id="valuesButton" style="color: #f26722;">Continue Reading</button>
               </div>
             </div>
           </div>

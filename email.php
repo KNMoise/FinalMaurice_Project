@@ -33,7 +33,7 @@ $mail->Password = $emailPassword;
 
 $mail->setFrom($email, $name);
 $mail->addReplyTo($email, $name);
-$mail->addAddress("n.moise.ob@gmail.com", "Moise NIZEYIMANA");
+$mail->addAddress("sales@innovatedtc.com", "Innovate with us");
 
 $mail->Subject = $subject;
 $mail->Body = $message;
