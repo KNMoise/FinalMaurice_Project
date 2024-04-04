@@ -11,7 +11,7 @@
         <div class="navbar-nav mx-auto py-0">
             <a href="index.php" class="nav-item nav-link <?php if (strpos($current_url, "index")) {echo "active";}?>">Home</a>
             <a href="about.php" class="nav-item nav-link <?php if (strpos($current_url, "about")) {echo "active";}?>">About</a>
-            <a href="service.php" class="nav-item nav-link <?php if (strpos($current_url, "service")) {echo "active";}?>">Service</a>
+            <a href="service.php" class="nav-item nav-link <?php if (strpos($current_url, "service")) {echo "active";}?>">Services</a>
             <a href="contact.php" class="nav-item nav-link <?php if (strpos($current_url, "contact")) {echo "active";}?>">Contact</a>
         </div>
     </div>

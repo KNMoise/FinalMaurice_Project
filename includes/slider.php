@@ -2,30 +2,6 @@
   <section class="custom-hero-slider-area">
     <div class="slide-front-image-bg-area">
       <div class="hero-slider-wrap owl-carousel owl-theme">
-        <div class="slider-item slider-item-bg-1">
-          <div class="d-table">
-            <div class="d-table-cell">
-              <div class="container">
-                <div class="slider-text one">
-                  <span class="preheading">Empower Your Business</span>
-                  <h1>Consultancy.</h1>
-                  <p>
-                    Our consultancy services provide strategic solutions to drive growth,
-                    optimize processes, and achieve your business objectives through software
-                    consultancy and project management office consultancy.
-                  </p>
-
-                  <div class="slider-btn">
-                    <a class="default-btn" href="consmore.php">
-                      Read more
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="slider-item slider-item-bg-2">
           <div class="d-table">
             <div class="d-table-cell">
@@ -49,14 +25,13 @@
             </div>
           </div>
         </div>
-
         <div class="slider-item slider-item-bg-3">
           <div class="d-table">
             <div class="d-table-cell">
               <div class="container">
                 <div class="slider-text two">
                   <span class="preheading">Organize, Secure, and Streamline Your Documents</span>
-                  <h1>Documents Management System</h1>
+                  <h1>Documents Management Solutions</h1>
                   <p>
                     Our solutions include EDMS, digitization services,
                     records management consultancy, and training to help you
@@ -65,6 +40,28 @@
 
                   <div class="slider-btn">
                     <a class="default-btn" href="docmore.php">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-item slider-item-bg-1">
+          <div class="d-table">
+            <div class="d-table-cell">
+              <div class="container">
+                <div class="slider-text one">
+                  <span class="preheading">Empower Your Business</span>
+                  <h1>Consultancy.</h1>
+                  <p>
+                    Our consultancy services provide strategic solutions to drive growth,
+                    optimize processes, and achieve your business objectives through software
+                    consultancy and project management office consultancy.
+                  </p>
+                  <div class="slider-btn">
+                    <a class="default-btn" href="consmore.php">
                       Read more
                     </a>
                   </div>
