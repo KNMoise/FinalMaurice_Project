@@ -112,18 +112,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
-              <div class="card-body">
-                <h2 class="card-title">Mission</h2>
-                <p> Our mission is to deliver exceptional value to our clients and partners through:</p>
-                <p class="card-text">
-                  - Developing innovative and cost-effective technology solutions and services.<br>
-                  - Collaborating closely with our customers to create technology-driven business solutions that contribute to societal well-being.<br>
-                  - Forging strategic partnerships with leading global technology manufacturers to tailor the best solutions to our customers' specific needs.</p>
-              </div>
-            </div>
-          </div> -->
           <div class="col-lg-4">
             <div class="card" style="backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">
@@ -134,21 +122,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-4">
-            <div class="card" style="background-color: rgba(255, 255, 255, 0.15); backdrop-filter: blur(10px);border-radius: 10px;padding: 20px;width: 300px;">
-            <h2 class="card-title">Core Values</h2>
-            <div class="card-body" id="missionText">
-                <ul class="list-group list-group-flush">
-                  <p style="color: bg-white;">i) Trust, integrity and respect;</p>
-                  <p style="color: bg-white;">ii) Honesty and confidentiality; </p>
-                  <p style="color: bg-white;"> iii) Teamwork, partnership and flexibility, </p>
-                  <p style="color: bg-white;">iv) Innovative thinking; </p>
-                  <p style="color: bg-white;">v) Delivering quality solutions, products and services that add value to businesses and</p>
-                  <p style="color: bg-white;">vi)Long-term commitment with our customers, suppliers and employees.</p>
-                </ul>
-              </div>
-            </div>
-          </div> -->
           <div class="col-lg-4">
             <div class="card" style="backdrop-filter: blur(10px); border-radius: 10px; padding: 20px; width: 300px;">
               <div class="card-body">

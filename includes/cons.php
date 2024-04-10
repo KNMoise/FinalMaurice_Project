@@ -52,6 +52,7 @@
 
     @media (max-width: 640px) {
         .grid-flex {
+            border-radius: 10px;
             height: 40em;
             display: -webkit-flex;
             -webkit-flex-direction: column;
