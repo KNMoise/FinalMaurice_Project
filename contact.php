@@ -54,7 +54,7 @@
                                     <div class="col-lg-7">
                                         <div class="wow fadeInUp" data-wow-delay="0.3s">
                                             <p class="text-center mb-4" style="color: white;">Reach out to Innovate<span style="color: #f26722;">with</span>Us where your questions find our answers—connecting you to solutions.</p><br>
-                                            <form action="email.php" method="POST">
+                                            <form action="PHPMailer.php" method="POST">
                                                 <div class="row g-3">
                                                     <div class="col-md-6">
                                                         <div class="form-floating">
