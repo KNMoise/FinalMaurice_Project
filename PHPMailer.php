@@ -28,12 +28,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'kentshumbusho@gmail.com';
-    $mail->Password = 'vxzp dzdp dlrl mrjg'; // Replace with your actual password (avoid storing it in code)
+    $mail->Username = 'innovatedtc@gmail.com';
+    $mail->Password = 'hszv vrzj vzga vxxx'; // Replace with your actual password (avoid storing it in code)
     $mail->SMTPSecure = 'TLS';
     $mail->Port = 587;
     $mail->setFrom($email, $name); // Set sender email and name
-    $mail->addAddress("kentmars2002@gmail.com");
+    $mail->addAddress("mutanaderrick@gmail.com");
     $mail->isHTML(true);
     $mail->Subject = $subject; // Set the subject from the form input
     $mail->Body = $message; // Combine subject and message body for single line display
