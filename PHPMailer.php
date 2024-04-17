@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $mail->Subject = $subject; // Set the subject from the form input
       $mail->Body = $message; // Combine subject and message body for single line display
       $mail->send();
-     header("location: contact.php?err=sent2");
+     header("location: getstarted.php?err=sent2");
     } catch (Exception $e) {
       echo "Email sending failed. Error: {$mail->ErrorInfo}";
     }
