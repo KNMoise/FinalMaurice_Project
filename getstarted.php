@@ -291,7 +291,7 @@
 
                   <!--Contact Form-->
                   <div class="contact-form">
-                    <form method="post" action="mail.php" id="contact-form">
+                    <form method="post" action="PHPMailer.php" id="contact-form">
                       <div class="row clearfix">
                         <div class="form-group col-md-6 col-sm-6 co-xs-12">
                           <input type="text" name="name" value="" placeholder="Name" required>
@@ -303,26 +303,26 @@
                           <input type="text" name="subject" value="" placeholder="Subject" required>
                         </div>
                         <div class="form-group col-md-6 col-sm-6 co-xs-12">
-                          <input type="text" name="organization" value="" placeholder="Organization" required>
+                          <input type="text" name="organizationName" value="" placeholder="Organization" required>
                         </div>
                         <div class="form-group col-md-6 col-sm-6 co-xs-12">
-                          <select class="form-control" name="company" required>
+                          <select class="form-control" name="companySize" required>
                             <option value="" disabled selected>Company Size</option>
-                            <option value="1-10">1-10 Employees</option>
-                            <option value="11-50">11-50 Employees</option>
-                            <option value="51-100">51-100 Employees</option>
-                            <option value="101-500">101-500 Employees</option>
-                            <option value="501+">501+ Employees</option>
+                            <option value="1-10 Employees">1-10 Employees</option>
+                            <option value="11-50 Employees">11-50 Employees</option>
+                            <option value="51-100 Employees">51-100 Employees</option>
+                            <option value="101-500 Employees">101-500 Employees</option>
+                            <option value="501+ Employees">501+ Employees</option>
                           </select>
                         </div>
                         <div class="form-group col-md-6 col-sm-6 co-xs-12">
                           <input type="text" name="phone" value="" placeholder="Phone" required>
                         </div>
                         <div class="form-group col-md-12 col-sm-12 co-xs-12">
-                          <textarea name="message" placeholder="Massage"></textarea>
+                          <textarea name="message" placeholder="Message"></textarea>
                         </div>
                         <div class="form-group col-md-12 col-sm-12 co-xs-12">
-                          <button type="submit" class="theme-btn btn-style-one">Send Now</button>
+                          <button type="submit" class="theme-btn btn-style-one" name="getStartedForm" >Send Now</button>
                         </div>
                       </div>
                     </form>
