@@ -56,6 +56,7 @@
             display: -webkit-flex;
             -webkit-flex-direction: column;
             flex-direction: column;
+            border-radius: 10px;
         }
 
         .col {

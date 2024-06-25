@@ -94,9 +94,9 @@
     </div>
 
     <div class="grid-flex">
-        <div class="col col-image" style="
+        <div class="col col-image" style="border-radius: 10px;
         background-image: url(https://img.freepik.com/free-photo/side-view-businesswoman-showing-analytical-charts-her-male-coworker_1098-20620.jpg?t=st=1711618129~exp=1711621729~hmac=57b6bc82da4cf275488573baa8ce54606159b75f9d141a48249295a4375f5ebd&w=996);
-      ">
+      " ,>
             &nbsp;
         </div>
         <div class="col col-text col-left">
